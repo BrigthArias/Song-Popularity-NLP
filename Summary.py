@@ -63,8 +63,7 @@ st.markdown("""
 # Importing the data
 #==============================================================================
 
-data = pd.read_csv(r'C:\Users\jverayo\Downloads\NLP\data\dataset.csv', 
-                   encoding="Windows-1252", encoding_errors= 'replace')
+data = pd.read_csv('Data/dataset.csv')
 
 #==============================================================================
 #

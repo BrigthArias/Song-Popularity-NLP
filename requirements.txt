@@ -3,6 +3,9 @@ pandas
 wordcloud
 matplotlib
 seaborn
-plotly.express
-matplotlib.colors
-plotly.graph_objects
+plotly
+nltk
+numpy
+langdetect
+spacy
+contractions

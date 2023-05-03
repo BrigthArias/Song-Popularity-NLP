@@ -1,7 +1,7 @@
 streamlit
 pandas
 wordcloud
-matplotlib.pyplot == 3.5.1
+matplotlib
 seaborn
 plotly.express
 matplotlib.colors

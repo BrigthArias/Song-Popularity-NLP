@@ -83,9 +83,9 @@ if selected_song and selected_artist:
         return colnames[np.argmax(row.values)]
     
     topic_song.loc[:,'colmax'] = topic_song.apply(lambda x: returncolname(x, topic_song.columns), axis=1)
-    name_topic = topic_song['colmax'].values[0]
+    name_topic = topic_song.loc[:,'colmax'].values[0]
     topic_song.loc[:, 'max_topic'] = ((topic_song.max(axis=1))*100).round(2).astype(str) + '%'
-    percentage_topic = topic_song['max_topic'].values[0]
+    percentage_topic = topic_song.loc[:,'max_topic'].values[0]
     
            
 # Row A for metrics

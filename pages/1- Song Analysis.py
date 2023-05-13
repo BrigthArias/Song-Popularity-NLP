@@ -27,7 +27,7 @@ colors = sb.color_palette("coolwarm_r", 3)
 
 st.title(":musical_note: Song Analysis :musical_note:")
 
-st.markdown("**By: ARIAS Bright   |   QUINONES Domenica   |   RAMIREZ SANCHEZ Luisa   |   VERAYO Jea**")
+st.markdown("**By: ARIAS Brigth   |   QUINONES Domenica   |   RAMIREZ SANCHEZ Luisa   |   VERAYO Jea**")
 
 st.markdown("---")
 
@@ -37,7 +37,7 @@ st.markdown("---")
 #==============================================================================
 
 # Load the dataset
-data = pd.read_csv('dataset.csv')
+data = pd.read_csv('Data/dataset.csv')
 
 #Replace columns of the topics name
 data.rename(columns={"Topic1": "Heartbreak", "Topic2": "Going Out", "Topic3": "Street", "Topic4": "Regret & Desperation"}, inplace=True)

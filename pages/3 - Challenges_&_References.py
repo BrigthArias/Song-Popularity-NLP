@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 
 st.title(":musical_note: Song Popularity Analysis :musical_note:")
 
-st.markdown("**By: ARIAS Bright   |   QUINONES Domenica   |   RAMIREZ SANCHEZ Luisa   |   VERAYO Jea**")
+st.markdown("**By: ARIAS Brigth   |   QUINONES Domenica   |   RAMIREZ SANCHEZ Luisa   |   VERAYO Jea**")
 
 st.markdown("---")
 

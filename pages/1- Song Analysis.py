@@ -124,7 +124,7 @@ popularity_class = []
 # Iterate over the rows of the DataFrame
 for index, row in filtered_data.iterrows():
     language.append(detect(row['lyrics_str']))
-    popularity_class.append(1 if row['popularity'] >= 60 else 0) 
+    popularity_class.append(1 if float(row['popularity']) >= 60 else 0) 
     
 # Assign the lists to new columns     
 filtered_data['language'] = language
